@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                    https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define a bean for the Student class -->
+    <bean id="student" class="com.core.SpringCore.Student">
+        <property name="studentName">
+            <value>Simmi</value>
+        </property>
+
+        <property name="studentRoll">
+            <value>101</value>
+        </property>
+
+        <property name="studentEmail">
+            <value>simmi@gmail.com</value>
+        </property>
+    </bean>
+    
+    <bean id="employee" class="com.core.SpringCore.Employee">
+  <property name="age">
+  <value>80</value>
+  </property>
+    <property name="name">
+    <value>Ramesh dubey</value>
+    </property>
+    <property name="id">
+    <value>11</value>
+    </property>
+</bean>
+</beans>
